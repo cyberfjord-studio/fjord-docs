@@ -27,13 +27,9 @@
     createSidebarContext,
   } from '@svelteness/kit-docs';
 
-  /** @type {import('@svelteness/kit-docs').MarkdownMeta | null} */
   export let meta = null;
-
-  /** @type {import('@svelteness/kit-docs').ResolvedSidebarConfig | null} */
   export let sidebar = null;
 
-  /** @type {import('@svelteness/kit-docs').NavbarConfig} */
   const navbar = {
     links: [{ title: 'Documentation', slug: '/docs', match: /\/docs/ }],
   };
